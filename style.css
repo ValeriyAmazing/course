@@ -167,10 +167,9 @@ header img#man{
 #text{
     position: relative;
     color: white;
-    line-height: 90%;
     font-size: 6vw;
     text-align: center;
-    max-width: 70vw;
+    max-width: 60vw;
     font-family: sans-serif;
     text-shadow: 1px 1px 1px #000000be;
 }
