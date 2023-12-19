@@ -154,11 +154,11 @@ header img{
 
 header img#mountain_left{
     left: 0;
-    object-fit: fill;
+
 }
 header img#mountain_right{
     right: 0;
-    object-fit: fill;
+
 }
 
 header img#man{
