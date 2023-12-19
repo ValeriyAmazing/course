@@ -67,7 +67,6 @@
   }
   #lesson1, #lesson2, #lesson3,#lesson4,#lesson5,#lesson6,#lesson7,#lesson8,#lesson9{
     opacity: 0;
-    transform: translateX(-400px);
   }
   #list {
     z-index: 10000;
