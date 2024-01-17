@@ -149,7 +149,7 @@ header img{
     width: 100%;
     height: 100%;
     overflow: visible;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 header img#mountain_left{
@@ -170,7 +170,7 @@ header img#man{
     line-height: 90%;
     font-size: 6vw;
     text-align: center;
-    max-width: 900px;
+    max-width: 80vw;
     font-family: sans-serif;
     text-shadow: 1px 1px 1px #000000be;
 }
