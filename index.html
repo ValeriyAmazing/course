@@ -8,17 +8,15 @@
     <title>JavaScript Tutorials</title>
   </head>
   <body>
-    <div class="wrapper">
     <a href="#header" id="top">наверх</a>
     <header id="header">
-
-      <img src="Images/bg.jpg" id="bg" alt="" />
+      <img src="./Images/bg.jpg" id="bg" alt="" />
       <h2 id="text">Покори вершины веб-разработки!</h2>
-      <img src="Images/man.png" id="man" alt="" />
-      <img src="Images/clouds_1.png" id="clouds_1" alt="" />
-      <img src="Images/clouds_2.png" id="clouds_2" alt="" />
-      <img src="Images/mountain_left.png" id="mountain_left" alt="" />
-      <img src="Images/mountain_right.png" id="mountain_right" alt="" />
+      <img src="./Images/man.png" id="man" alt="" />
+      <img src="./Images/clouds_1.png" id="clouds_1" alt="" />
+      <img src="./Images/clouds_2.png" id="clouds_2" alt="" />
+      <img src="./Images/mountain_left.png" id="mountain_left" alt="" />
+      <img src="./Images/mountain_right.png" id="mountain_right" alt="" />
     </header>
     <aside id="list">
       <ul>
@@ -4185,9 +4183,7 @@
       npm install --save-dev prettier
     </code>
   </pre>
-
         <p>Настройте <code>.prettierrc</code> файл в корне проекта:</p>
-
         <pre>
     <code class="language-json">
       {
@@ -4313,7 +4309,6 @@
         </p>
       </section>
     </main>
-          </div>
     <script src="prism.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -4325,97 +4320,7 @@
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
     <script>
       gsap.registerPlugin(ScrollTrigger);
-      gsap.to("#lesson1", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson1",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
 
-        },
-      });
-      gsap.to("#lesson2", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson2",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson3", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson3",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson4", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson4",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson5", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson5",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson6", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson6",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson7", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson7",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson8", {
-        opacity: 1,
-        scrollTrigger: {
-          trigger: "#lesson8",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
-      gsap.to("#lesson9", {
-        opacity: 1,
-
-        scrollTrigger: {
-          trigger: "#lesson9",
-          start: "top 70%",
-          end: "top top",
-          scrub: true,
-
-        },
-      });
       gsap.to("#text", {
         scale: 1.4,
         scrollTrigger: {
@@ -4425,7 +4330,7 @@
         },
       });
       gsap.to("#bg", {
-        scale: 2, 
+        scale: 2,
         scrollTrigger: {
           trigger: "#bg",
           start: "scroller-start",
@@ -4433,7 +4338,7 @@
         },
       });
       gsap.to("#man", {
-        scale: 0.3, 
+        scale: 0.3,
         scrollTrigger: {
           trigger: "#man",
           start: "start",
@@ -4449,7 +4354,7 @@
         },
       });
       gsap.to("#mountain_right", {
-        x: 500, 
+        x: 500,
         scrollTrigger: {
           trigger: "#mountain_right",
           start: "start",
@@ -4457,7 +4362,7 @@
         },
       });
       gsap.to("#clouds_1", {
-        x: 200, 
+        x: 200,
         scrollTrigger: {
           trigger: "#clouds_1",
           start: "start",
@@ -4465,7 +4370,7 @@
         },
       });
       gsap.to("#clouds_2", {
-        x: -200, 
+        x: -200,
         scrollTrigger: {
           trigger: "#clouds_2",
           start: "start",
