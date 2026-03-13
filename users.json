@@ -3,6 +3,20 @@
         "all"
     ],
     "test_student": [
-        "module-02-flow-functions", 3,4,5, 6, 12
-    ]
+        "module-02-flow-functions",
+        3,
+        4,
+        5,
+        6,
+        12
+    ],
+    "dssava": {
+        "javascript": [
+            1,
+            2
+        ],
+        "html-css": [
+            1
+        ]
+    }
 }
