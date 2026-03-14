@@ -18,13 +18,14 @@
         "html-css": [
             1
         ]
-    },    "TTZ7": {
+    },
+    "TTZ7": {
         "javascript": [
             1
-            
         ],
         "html-css": [
-            1,2
+            1,
+            2
         ]
     }
 }
