@@ -10,5 +10,15 @@
         "html-css": [
             1
         ]
+    },
+
+    "lego": {
+        "javascript": [
+            1,
+            2
+        ],
+        "html-css": [
+            1
+        ]
     }
 }
